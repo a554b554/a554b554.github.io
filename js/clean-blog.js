@@ -8,6 +8,24 @@
 
 $(function() {
 
+    $('ul.nav li.dropdown').hover(function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+      $(this).css({'background-color': '#56baaf'});
+      $(this).find('.dropdown-toggle').css({'color': '#000000'});
+    }, function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+      $(this).css({'background-color': '#f8f8f8'});
+      $(this).find('.dropdown-toggle').css({'color': '#777777'});
+    });
+
+    $('ul.nav li.aaa').hover(function() {
+      $(this).css({'background-color': '#56baaf'});
+      $(this).find('.dropdown-toggle').css({'color': '#000000'});
+    }, function() {
+      $(this).css({'background-color': '#f8f8f8'});
+      $(this).find('.dropdown-toggle').css({'color': '#777777'});
+    });
+
     $("#contactFrom input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -1030,3 +1048,8 @@ jQuery(document).ready(function($) {
             });
     }
 });
+
+
+
+
+
