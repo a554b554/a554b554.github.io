@@ -497,3 +497,7 @@ nav {
 .jumbotron > .container > a{
   color: #ffffff !important;;
 }
+
+.teaser {
+	box-shadow: 2px 2px 2px 2px #ccc;
+}
