@@ -1,0 +1,19 @@
+"AJP":
+  url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"
+
+"PhysRev":
+  url: https://journals.aps.org/
+
+
+"Graphics":
+  color: "#e76f51"
+
+"HCI":
+  color: "#00369f"
+
+"AI/ML":
+  color: "#800080"
+
+"AR/VR":
+  color: "#ffafcc"
