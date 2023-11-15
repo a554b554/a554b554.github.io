@@ -2,10 +2,10 @@
 layout: page
 title: press
 permalink: /press/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 2
-display_categories: [work, fun]
+description: Throughout the course of my research, many of our work has attracted a great deal of public interest. Here are some selected media coverages, reflecting my research from a different perspective.
+nav: true
+nav_order: 3
+display_categories: [iMarker, GPU, Vidgets, FontCode]
 horizontal: false
 ---
 

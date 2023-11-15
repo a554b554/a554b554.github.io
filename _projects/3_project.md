@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Adweek
+description: Adobe Unveils New Augmented Reality Shopping Tool 
+img: assets/img/logo/adweek.png
+redirect: https://www.adweek.com/commerce/adobe-unveils-new-augmented-reality-shopping-tool-prototype/
 importance: 3
-category: work
+category: iMarker
 ---
 
 Every project has a beautiful feature showcase page.
